@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/samdouble/fikasio-usernews/compare/v1.0.0...v1.0.1) (2025-02-06)
+
+
+### Bug Fixes
+
+* fixed Dockerfile name in publish workflow ([443ddc9](https://github.com/samdouble/fikasio-usernews/commit/443ddc9380f31074b8c2e4e3cfcc91ea7c7a082a))
+
 ## 1.0.0 (2025-02-06)
 
 
