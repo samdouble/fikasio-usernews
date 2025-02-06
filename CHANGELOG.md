@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/samdouble/fikasio-usernews/compare/v1.0.1...v1.1.0) (2025-02-06)
+
+
+### Features
+
+* send emails ([6678ba0](https://github.com/samdouble/fikasio-usernews/commit/6678ba03f083876651240cb97763a2a67893afc5))
+
 ## [1.0.1](https://github.com/samdouble/fikasio-usernews/compare/v1.0.0...v1.0.1) (2025-02-06)
 
 
