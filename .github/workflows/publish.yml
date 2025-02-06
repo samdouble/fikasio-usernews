@@ -25,6 +25,7 @@ jobs:
           aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_IDENTIFIER.dkr.ecr.$AWS_REGION.amazonaws.com
           docker build \
             -t $IMAGE_URL:$TAG \
-            -t $IMAGE_URL:latest .
+            -t $IMAGE_URL:latest \
+            -f Dockerfile.prod .
           docker push $IMAGE_URL --all-tags
           aws lambda update-function-code --region $AWS_REGION --function-name $FUNCTION_NAME --image-uri $IMAGE_URL:latest
