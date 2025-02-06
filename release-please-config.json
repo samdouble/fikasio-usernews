@@ -1,0 +1,8 @@
+{
+  "last-release-sha": null,
+  "packages": {
+    ".": {
+      "release-type": "go"
+    }
+  }
+}
